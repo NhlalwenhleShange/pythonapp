@@ -38,15 +38,6 @@ Features:
 
 Python, TensorFlow/Keras, Scikit-learn, XGBoost, Pandas, Plotly, Flask, Dash
 
-## ⚙️ Run Project
-
-```bash
-git clone https://github.com/your-username/repo-name.git
-cd repo-name
-pip install -r requirements.txt
-python app.py
-```
-
 ## 📌 Key Insight
 
 Hybrid models outperform individual models in detecting IoT intrusions.
