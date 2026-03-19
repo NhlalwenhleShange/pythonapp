@@ -1,96 +1,56 @@
-Comparison Analysis of Ensemble Models for Intrusion Detection in IoT Systems
-📌 Overview
+# 🔐 Intrusion Detection in IoT Systems – Ensemble Model Comparison
 
-This project focuses on evaluating and comparing the performance of individual and hybrid machine learning/deep learning models for intrusion detection in IoT (Internet of Things) environments.
+## 📌 Overview
 
-The goal is to improve detection accuracy and robustness by leveraging ensemble and hybrid architectures, combining the strengths of different models.
+This project compares **individual and hybrid models** for intrusion detection in IoT systems. The aim is to improve detection accuracy using ensemble techniques.
 
-Objectives
+## 🧠 Models
 
-Build and train individual models for intrusion detection
+**Individual:** GRU, CNN, LSTM, Autoencoder, XGBoost
+**Hybrid:**
 
-Develop hybrid/ensemble models for improved performance
+* GRU + XGBoost
+* Autoencoder + XGBoost
+* CNN + LSTM
 
-Perform comparative analysis using key evaluation metrics
+## 📊 Evaluation
 
-Visualize results through an interactive dashboard
+Models were compared using:
 
-Models Implemented
-🔹 Individual Models
+* Accuracy
+* Precision
+* Recall
+* F1-Score
 
-GRU (Gated Recurrent Unit)
+## 📈 Dashboard
 
-CNN (Convolutional Neural Network)
+Built an interactive dashboard using:
 
-LSTM (Long Short-Term Memory)
+* Flask
+* Dash (Plotly)
 
-Autoencoder
+Features:
 
-XGBoost
+* Model comparison charts
+* Performance metrics visualization
 
-🔹 Hybrid / Ensemble Models
+## 🧰 Tech Stack
 
-GRU + XGBoost
+Python, TensorFlow/Keras, Scikit-learn, XGBoost, Pandas, Plotly, Flask, Dash
 
-Autoencoder + XGBoost
+## ⚙️ Run Project
 
-CNN + LSTM
-These hybrid models combine feature extraction (deep learning) with classification (machine learning) to enhance detection performance.
+```bash
+git clone https://github.com/your-username/repo-name.git
+cd repo-name
+pip install -r requirements.txt
+python app.py
+```
 
-📊 Data Analysis & Evaluation
+## 📌 Key Insight
 
-The models were evaluated using:
+Hybrid models outperform individual models in detecting IoT intrusions.
 
-Accuracy
+---
 
-Precision
-
-Recall
-
-F1-Score
-
-Confusion Matrix
-
-Comparative analysis was performed to determine:
-
-Best-performing model
-
-Trade-offs between models
-
-Efficiency in detecting anomalies in IoT systems
-
-Dashboard & Visualization
-
-An interactive dashboard was developed to present results and insights.
-
-🛠 Technologies Used:
-
-Python
-
-Flask – for backend integration
-
-Dash (Plotly) – for interactive data visualization
-
-📌 Dashboard Features:
-
-Model performance comparison charts
-
-Real-time metric visualization
-
-Confusion matrix display
-
-Interactive filtering and analysis
-
-Tech Stack
-
-Programming Language: Python
-
-Machine Learning: XGBoost, Scikit-learn
-
-Deep Learning: TensorFlow / Keras / PyTorch
-
-Data Processing: Pandas, NumPy
-
-Visualization: Plotly, Dash
-
-Web Framework: Flask
+👤 Your Name | GitHub: https://github.com/your-username
